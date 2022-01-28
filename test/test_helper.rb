@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "gems/ipgeo"
+$LOAD_PATH.unshift File.expand_path('../lib', __dir__)
+require 'gems/ipgeo'
 
-require "minitest/autorun"
+require 'minitest/autorun'
 require 'webmock/minitest'

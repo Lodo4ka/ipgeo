@@ -2,6 +2,7 @@
 
 require 'test_helper'
 
+# testing Ipgeo module with ip 8.8.8.8
 class IpgeoTest < Minitest::Test
   def setup
     xml = File.new('test/fixture.xml')

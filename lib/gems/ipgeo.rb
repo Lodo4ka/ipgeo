@@ -5,6 +5,7 @@ require_relative 'ipmeta'
 require 'addressable/uri'
 require 'net/http'
 
+# the gems contains a lookup method that takes an IP address and returns metadata
 module Ipgeo
   class Error < StandardError; end
 
