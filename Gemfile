@@ -12,6 +12,7 @@ gem 'minitest', '~> 5.0'
 gem 'rubocop', '~> 1.7'
 
 group :test do
+  gem 'minitest-power_assert'
   gem 'webmock'
 end
 
